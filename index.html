@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/font.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -50,24 +54,372 @@
     </div>
 
     <div class="block2">
-       <div class="container block2__content">
-        <div class="block2-drinks">
-            <img src="./assets/img/bramble.png"alt="">
-            <div class="text-drinks">
-                <p>Drink Of The Day</p>
-                <h2>Bramble</h2>
+        <div class="container block2__content">
+            <div class="block2-drinks">
+                <img src="./assets/img/bramble.png" alt="">
+                <div class="text-drinks">
+                    <p>Drink Of The Day</p>
+                    <h2>Bramble</h2>
+                </div>
+            </div>
+            <div class="block2-drinks">
+                <img src="./assets/img/Thanksgiving.png" alt="">
+                <div class="text-drinks">
+                    <p>Drinks Occasion</p>
+                    <h2>Thanksgiving</h2>
+                </div>
             </div>
         </div>
-        <div class="block2-drinks">
-            <img src="./assets/img/Thanksgiving.png" alt="">
-            <div class="text-drinks">
-                <p>Drinks Occasion</p>
-                <h2>Thanksgiving</h2>
-            </div>
-        </div>
-       </div>
     </div>
 
+    <div class="block3">
+        <div class="container">
+            <div class="block3__title title-heading">
+                <h2>COCKTAIL RECIPES BY INGREDIENT</h2>
+            </div>
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=375">
+                            <img loading="lazy"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/636ca162-ab49-4578-9717-8f05788a4fa0.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Absolut Grapefruit</h3>
+                                <p>15 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=375">
+                            <img loading="lazy" class="object-contain object-bottom h-auto w-full"
+                                alt="tomato juice against white background"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/08358f78-cba3-4ec0-9fb6-43d7e919ca43.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Tomato Juice</h3>
+                                <p>22 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=375">
+                            <img loading="lazy" class="object-contain object-bottom h-auto w-full"
+                                alt="blackberry against white background"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/e9c63575-be76-4b5f-8597-fde57e865e03.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Blackberry</h3>
+                                <p>58 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=375">
+                            <img loading="lazy" class="object-contain object-bottom h-auto w-full"
+                                alt="triple sec against white background"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/fc116c1f-80b5-4db0-8251-c3058b810326.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Triple Sec</h3>
+                                <p>380 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=375">
+                            <img loading="lazy"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/4656967f-836e-4117-ae60-b2b9beadc9cf.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Blueberry</h3>
+                                <p>32 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=375">
+                            <img loading="lazy" class="object-contain object-bottom h-auto w-full"
+                                alt="pineapple against white background"
+                                src="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=175&amp;pixelratio=2"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=175 1x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=175&amp;pixelratio=2 2x, https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/ab744a53-fe63-4459-8d3b-a3dabf30f35a.jpg?imwidth=175&amp;pixelratio=2 3x">
+                            <div class="text-info">
+                                <h3>Pineapple</h3>
+                                <p>245 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="block3__preview">
+                <div class="preview-cocktails movie-cocktails text-center hover-opa">
+                    <img src="./assets/img/COCKTAIL RECIPES/moviecocktailss.jpeg" alt="" style="width: 97%;">
+                    <div class="text-cocktails">
+                        <p>Explore</p>
+                        <h2>MOVIE COCKTAILS</h2>
+                    </div>
+                </div>
+                <div class="more-cocktails">
+                    <div class="preview-cocktails preview-small hover-opa">
+                        <img src="./assets/img/COCKTAIL RECIPES/test1.png" alt="">
+                        <div class="text-drinks">
+                            <p>Absolut Drinks with Rico</p>
+                            <h2>Party Cocktails</h2>
+                        </div>
+                    </div>
+                    <div class="preview-cocktails preview-small hover-opa">
+                        <img src="./assets/img/COCKTAIL RECIPES/test2.png" alt="">
+                        <div class="text-drinks">
+                            <p>Drink Collection</p>
+                            <h2>Brunch Cocktails</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-drinks"><a href="#">MORE DRINK OCCASIONS</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block4">
+        <div class="container">
+            <div class="block4__title title-heading">
+                <h2>SPIRITS</h2>
+            </div>
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/Raw/Absolut/bedb218f-3e69-43a3-9f53-7b0e91ee848e.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/Raw/Absolut/bedb218f-3e69-43a3-9f53-7b0e91ee848e.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/Raw/Absolut/bedb218f-3e69-43a3-9f53-7b0e91ee848e.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/cosmoo.jpg" alt="">
+                            <div class="text-info">
+                                <h3>Vodka Drinks</h3>
+                                <p>1372 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/ac16bef1-b33f-4b85-a118-dd500b3025d1.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/ac16bef1-b33f-4b85-a118-dd500b3025d1.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/ac16bef1-b33f-4b85-a118-dd500b3025d1.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/GinDrinks.webp" alt="">
+                            <div class="text-info">
+                                <h3>Gin Drinks/h3>
+                                    <p>758 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/d19fe3ef-776f-4de9-8dea-f0f3a8f78beb.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/d19fe3ef-776f-4de9-8dea-f0f3a8f78beb.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/d19fe3ef-776f-4de9-8dea-f0f3a8f78beb.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/RumDrinks.webp" alt="">
+                            <div class="text-info">
+                                <h3>Rum Drinks</h3>
+                                <p>411 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/e162ceba-6b26-4b94-8bc7-c1d6d109ff55.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/e162ceba-6b26-4b94-8bc7-c1d6d109ff55.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/e162ceba-6b26-4b94-8bc7-c1d6d109ff55.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/Whiskey Sour.webp" alt="">
+                            <div class="text-info">
+                                <h3>Whisky Drinks</h3>
+                                <p>484 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/d347dca3-8310-4781-bdfb-889b69f59150.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/d347dca3-8310-4781-bdfb-889b69f59150.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/ingredient-images/Raw/Absolut/d347dca3-8310-4781-bdfb-889b69f59150.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/Champagne.webp" alt="">
+                            <div class="text-info">
+                                <h3>Champagne</h3>
+                                <p>157 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/141bcc43-7f4a-4f94-a88b-f18c279b5159.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/141bcc43-7f4a-4f94-a88b-f18c279b5159.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/141bcc43-7f4a-4f94-a88b-f18c279b5159.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/Non-alcoholic.webp" alt="">
+                            <div class="text-info">
+                                <h3>Non-alcoholic</h3>
+                                <p>90 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/f2b2b4ec-9ca6-4cc1-9256-2a40f7724dbf.jpg?imwidth=175">
+                            <source media="(min-width: 900px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/f2b2b4ec-9ca6-4cc1-9256-2a40f7724dbf.jpg?imwidth=150">
+                            <source media="(min-width: 600px)"
+                                srcset="https://images.absolutdrinks.com/drink-images/415x570/f2b2b4ec-9ca6-4cc1-9256-2a40f7724dbf.jpg?imwidth=375">
+                            <img src="./assets/img/SPIRITS/BrandyDrinkd.webp" alt="">
+                            <div class="text-info">
+                                <h3>Brandy Drinks</h3>
+                                <p>526 drinks</p>
+                            </div>
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute-rico title-center">
+                <h2>ABSOLUT DRINKS WITH RICO</h2>
+                <div class="vd-rico">
+                    <iframe
+                        src="https://www.youtube.com/embed/HohfLq3VAgU?modestbranding=1&widget_referrer=www.absolutdrinks.com&enablejsapi=1&origin=https%3A%2F%2Fwww.absolutdrinks.com&widgetid=1"
+                        frameborder="0"></iframe>
+                </div>
+                <div class="more-rico title-center">
+                    <h2>MORE DRINKS WITH RICO</h2>
+                    <div class="vds-item ">
+                        <div class="vds-rico hover-opa pointer">
+                            <img src="./assets/img/rico/1.jpg" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Rico's Top 3 Absolut Vodka Drinks!</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer">
+                            <img src="./assets/img/rico/2.jpg" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Bartending Basics: How To Use A Cocktail Shaker</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer">
+                            <img src="./assets/img/rico/3.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Bartending Basics: How To Use A Cocktail Shaker</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/4.jpg" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>3 Drinks You Can Make With Absolut Lime!</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/5.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>3 New Classics With Absolut Grapefruit!</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/6.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Rico's Favorite Drinks With Absolut Citron</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/7.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Bartending Basics: What Is A Part?</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/8.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>How to make Simple Syrup with Rico</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/9.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Easy Party Drinks with Rico</h2>
+                            </div>
+                        </div>
+                        <div class="vds-rico hover-opa pointer d-none moretext">
+                            <img src="./assets/img/rico/10.webp" alt="">
+                            <div class="text-rico">
+                                <p>3 Drinks</p>
+                                <h2>Holiday Drinks with Rico</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="moreless-button">SHOW MORE</p>
+                </div>
+
+            </div>
+        </div>
+
 </body>
+
+<script src="./assets/main/main.js"></script>
 
 </html>
