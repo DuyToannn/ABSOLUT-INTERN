@@ -71,14 +71,117 @@
         color: #fde021;
         font-size: 16px;
     }
-    .test::after,
-    .test::before {
-        content: '';
-        height: 100%;
-        background-color: rgba(0, 0, 0, 1);
+    .preview-cocktails {
+        filter: brightness(66%);
+    }
+    .text-drinks3 {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .text-drinks3 p {
+        color: #0033a0;
+        padding-left: unset;
+        padding-right: 20px;
+        margin-left: unset;
+        margin-right: unset;
+        margin-top: 0px;
+        background-color: unset;
+    }
+    .text-drinks3 h2 {
+        padding-top: 10px;
+        color: #ff00a5d9;
+        font-size: 18px;
+    }
+    .vds-item {
+        grid-template-columns: auto auto;
+        grid-column-gap: 0px;
+    }
+    .vds-rico img {
+        width: 90%;
+    }
+    .vds-rico {
         width: 100%;
+    }
+    .text-rico {
+        text-align: left;
+        padding-left: 18px;
+    }
+    .text-rico p {
+        padding-right: unset;
+        padding-left: unset;
+        padding-top: 10px;
+        margin-left: unset;
+        margin-right: unset;
+        margin-top: unset;
+        text-align: left;
+        background-color: unset;
+    }
+    /* ============ Block5 ================ */
+    .text-info5 {
+        text-align: center;
+    }
+    /* ============= Show us ================ */
+    .showus__post {
+        padding: 30px 15px;
+    }
+    .showus__title {
+        max-width: 100%;
+    }
+    .showus__title h2 {
+        font-size: 16px;
+    }
+    .showus__title p {
+        font-size: 14px;
+    }
+    .showus__title a {
+        font-size: 14px;
+    }
+    /* ================= Classic =============== */
+    .featured-banner {
+        width: 100%;
+    }
+    .featured-banner img {
+        width: 100%;
+    }
+    .text-info {
         position: absolute;
-        opacity: .3;
-        z-index: 999999999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 50%;
+    }
+    .text-info h3 {
+        color: #fff;
+        font-size: 25px;
+    }
+    .text-info p {
+        color: #fde021;
+    }
+    /* ================= latest =============== */
+    .latest-content {
+        width: 100%;
+    }
+    .latest-content img {
+        width: 95%;
+    }
+    .latest-content .text-info {
+        display: unset;
+        position: unset;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .latest-content .text-info h3 {
+        color: #0033a0;
+        font-size: 16px;
+    }
+    .latest-content .text-info p {
+        color: #ff00a5d9;
+    }
+    .mixology__swiper {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
     }
 }

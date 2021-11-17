@@ -14,6 +14,11 @@ img {
     display: none;
 }
 
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -276,9 +281,19 @@ img {
 }
 
 .movie-cocktails picture img {
-    width: 97%;
+    width: 100%;
     height: 80vh;
     object-position: 50% 50%;
+}
+
+.preview-cocktails img {
+    width: 100%;
+    height: 100%;
+}
+
+.featured__preview .preview-cocktails {
+    filter: brightness(100%);
+    height: 54vh;
 }
 
 .text-cocktails {
@@ -336,8 +351,21 @@ img {
 
 .vd-rico iframe {
     padding-top: 50px;
-    width: 99%;
-    height: 87vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.container-vd {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
 }
 
 .vds-rico {
@@ -601,12 +629,21 @@ img {
     padding-top: 40px;
 }
 
+.featured-slide {
+    display: flex;
+    flex-direction: column;
+}
+
 .latest {
     padding-top: 100px;
 }
 
 .latest__swiper {
     padding-top: 50px;
+}
+
+.latest-content img {
+    width: 100%;
 }
 
 .classic {
@@ -618,7 +655,21 @@ img {
 }
 
 .mixology__swiper {
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
+}
+
+.mixilogy__img {
+    width: 100%;
+}
+
+.l-20 {
+    padding-left: 20px;
+}
+
+.mixilogy__img img {
+    width: 100%;
 }
 
 .footer {
@@ -713,7 +764,7 @@ img {
 }
 
 .block2-img {
-    height: 20vw;
+    height: 25vw;
     width: 100%;
 }
 
