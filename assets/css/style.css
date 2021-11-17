@@ -10,12 +10,20 @@ img {
     text-align: center;
 }
 
+.d-none {
+    display: none;
+}
+
 .pointer {
     cursor: pointer;
 }
 
 .text-left {
     text-align: left;
+}
+
+.po-absolute {
+    position: absolute;
 }
 
 :root {
@@ -54,6 +62,10 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 3px 20px;
+}
+
+.toggle-mobile {
+    display: none;
 }
 
 .header__nav-list {
@@ -180,9 +192,7 @@ img {
     transition: 0.4s;
 }
 
-.block2-drinks img {
-    width: 100%;
-}
+.block2-drinks img {}
 
 .text-drinks {
     display: flex;
@@ -687,11 +697,27 @@ img {
     color: #fff;
 }
 
-.footer__content h4 {
+.please-res {
     font-size: 14px;
     text-align: center;
     padding-top: 15px;
+    margin-top: 34px;
     padding-bottom: 15px;
     color: #fff;
     background-color: #091a6f;
+    opacity: .54;
+}
+
+.block2-content {
+    margin: 12px;
+}
+
+.block2-img {
+    height: 20vw;
+    width: 100%;
+}
+
+.block2-img img {
+    width: 100%;
+    height: 100%;
 }

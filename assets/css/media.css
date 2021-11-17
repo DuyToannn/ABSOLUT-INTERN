@@ -1,0 +1,84 @@
+@media (max-width: 800px) {
+    .header__nav-list {
+        display: none;
+    }
+    .toggle-mobile {
+        display: block;
+    }
+    .header__nav-logo {
+        padding-left: 30px;
+    }
+    .fa-bars {
+        font-size: 18px;
+        color: #fff;
+    }
+    .block1 {
+        display: none;
+    }
+    .header__nav-item a {
+        padding-left: 8px;
+    }
+    .header__nav-item a span {
+        left: 15px;
+    }
+    .text-drinks {
+        position: absolute;
+    }
+    .text-drinks p {
+        color: #fde021;
+        background-color: unset;
+    }
+    .text-drinks h2 {
+        color: rgba(255, 255, 255);
+        font-size: 32px;
+    }
+    .block2 {
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: 23px;
+    }
+    .block2-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: unset;
+    }
+    .block2-img {
+        height: 100vw;
+        width: 100%;
+    }
+    .block2-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .opa-img::after,
+    .opa-img::before {
+        content: '';
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        position: absolute;
+        opacity: .3;
+        z-index: 999999999;
+    }
+    .text-cocktails h2 {
+        padding-top: 10px;
+        font-size: 32px;
+        font-family: 'Absolut Sans Bold';
+    }
+    .text-cocktails p {
+        color: #fde021;
+        font-size: 16px;
+    }
+    .test::after,
+    .test::before {
+        content: '';
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        position: absolute;
+        opacity: .3;
+        z-index: 999999999;
+    }
+}

@@ -113,6 +113,30 @@ var swiper = new Swiper(".mixology__swiper", {
 
     }
 });
+
+
+var block2 = new Swiper(".block2__swiper", {
+    cssMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 1,
+    breakpoints: {
+        800: {
+            slidesPerView: 1
+        },
+        1200: {
+            slidesPerView: 2
+        }
+    },
+});
+
+
+
 $('.moreless-button').click(function() {
     $('.moretext').toggle();
     if ($('.moreless-button').text() == "SHOW MORE") {
