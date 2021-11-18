@@ -178,10 +178,75 @@
     .latest-content .text-info p {
         color: #ff00a5d9;
     }
+    /* ================= Mixilogy =============== */
     .mixology__swiper {
         display: grid;
         grid-template-columns: auto auto;
-        grid-column-gap: 5px;
+        grid-column-gap: 15px;
         grid-row-gap: 20px;
+    }
+    .text-mixi {
+        padding-top: 10px;
+        color: #0033a0;
+    }
+    /* ================= Footer =============== */
+    .footer__logo {
+        padding: 10px 10px 20px;
+    }
+    .footer__nav {
+        display: unset;
+    }
+    .footer__nav .list__item-contact {
+        display: unset;
+    }
+    .footer__nav ul .list-item {
+        padding: 0px 10px;
+    }
+    .line-mobile {
+        display: inline-block;
+        width: 100%;
+    }
+    .footer__nav ul li .line-mobile {
+        color: #fff;
+        opacity: unset;
+        padding: 12px 0;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-color: #091a6f;
+    }
+    .line3 {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: #091a6f;
+    }
+    .footer__nav .list__item-local {
+        justify-content: center;
+        padding: 25px 0 15px;
+    }
+    .border-pink {
+        margin: 10px;
+    }
+    .d-none-mb {
+        display: none !important;
+    }
+    .footer__policy {
+        display: unset;
+        justify-content: center;
+    }
+    .footer__policy ul {
+        justify-content: center;
+        margin-top: 35px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 554px) {
+    .mixilogy__img.type-1 {
+        width: 85%;
+    }
+    .mixology__swiper {
+        padding: 30px;
+        grid-column-gap: 0px;
     }
 }
