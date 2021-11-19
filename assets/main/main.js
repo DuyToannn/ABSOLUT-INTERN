@@ -108,6 +108,7 @@ var block2 = new Swiper(".block2__swiper", {
 });
 
 
+
 var swiper = new Swiper(".block5-swiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -147,3 +148,6 @@ $('.moreless-button').click(function() {
         $(this).text("SHOW MORE")
     }
 });
+
+/**btn-popup = fa-bars
+   popup-form = menu-mobile */
